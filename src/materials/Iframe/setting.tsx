@@ -15,6 +15,13 @@ export default {
           { pattern: /[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|]/, message: '请输入正确URL', trigger: 'blur' }
         ]
       },
+      aesSecret: {
+        label: 'Aes Secret',
+        type: 'input',
+        attrs: {
+          placeholder: '请输入Aes Secret'
+        }
+      },
       duration: {
         label: '刷新频率',
         type: 'input-number',
